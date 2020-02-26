@@ -14,7 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+var me = {
+  name: "Jason",
+  age: 38
+}
+alert (me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -24,12 +28,22 @@
 */
 
 //Code here
+var favoriteThings = {
+  band: 'lucero',
+  food: 'Thai',
+  person: 'Micah',
+  book: 'none',
+  movie: '1917',
+  holiday: 'New Years'
 
+}
+//
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
-
+favoriteThings.car = 'Civic';
+favoriteThings.brand = 'Honda';
 //Code here
 
 /*
@@ -38,7 +52,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 ////////// PROBLEM 3 //////////
 
 /*
@@ -48,6 +63,10 @@
   Set the value of that key to 'chapstick'.
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
+let backPack = {};
+let item = 'firstPocket';
+backPack['firstPocket'] = 'chapstick';
+backPack.color = 'black';
 
 //Code here
 
@@ -56,7 +75,7 @@
 */
 
 //Code here
-
+alert (backPack);
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -85,7 +104,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Bryan G. Smith';
+user2.email = 'bryan.smith@devmounta.in';
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
